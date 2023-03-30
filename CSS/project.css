@@ -1,0 +1,19 @@
+.projects .wrap{
+    display: grid;
+    grid-template-areas: 'text iteams'
+                         'interest iteams';
+    align-items: center;
+    padding: 0px 50px;
+}
+.projects hr{
+    margin: 0;
+    width: 80%;
+}
+.projects .wrap > p{
+    grid-area: text;
+    width: 75%;
+    text-align: center;
+    color: #BAC3CF;
+    font-size: 1.4rem;
+    margin: 0 auto;
+}

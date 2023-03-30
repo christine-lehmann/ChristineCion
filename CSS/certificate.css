@@ -1,0 +1,10 @@
+.certificate .wrap{
+    display: grid;
+    grid-template-areas: 'heading pic'
+                         'para pic'
+                         'cta pic';
+}
+.certificate hr{
+    margin: 0;
+    width: 63%;
+}
